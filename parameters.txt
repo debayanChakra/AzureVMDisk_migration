@@ -1,0 +1,9 @@
+
+###Parameter ####
+$Vm_name = "Give Name of VM"
+
+$RGname = "Input Name of Source Resource Group"
+$destRGname = "Input Name of destination resourceGroup"
+$subscription_name = "Give the right sunscription Name"
+
+ 
