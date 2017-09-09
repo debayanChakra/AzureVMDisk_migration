@@ -37,7 +37,7 @@ Function  Create_backup_Os_Disk {
 
        Catch
        {
-       Write-Error "Vm and Os disk are not in same resource group. Please contact CloudOps"
+       Write-Error "Vm and Os disk are not in same resource group."
        Break
        }
       $snapShotConfig =  New-AzureRmSnapshotConfig -SourceUri $diskconfig.Id -CreateOption Copy -Location $diskconfig.Location -AccountType $diskconfig.AccountType
